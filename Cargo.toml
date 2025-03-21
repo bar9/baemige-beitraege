@@ -1,0 +1,10 @@
+[package]
+name = "beitraege"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+gdal = { version = "0.17.1", features = ["bindgen"] }
+geo = "0.29.3"
+minifb = "0.27.0"
+zip = "2.4.2"
