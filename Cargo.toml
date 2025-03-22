@@ -6,5 +6,6 @@ edition = "2024"
 [dependencies]
 gdal = { version = "0.17.1", features = ["bindgen"] }
 geo = "0.29.3"
+image = "0.25.5"
 minifb = "0.27.0"
 zip = "2.4.2"
